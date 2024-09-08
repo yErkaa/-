@@ -6,26 +6,26 @@ body {
     padding:0;
 }
 .content {
-    display: flex; /* Используем Flexbox для размещения элементов в строку */
-    align-items: center; /* Центрируем элементы по вертикали */
-    justify-content: space-between; /* Размещаем элементы с максимальным пространством между ними */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
 }
 
 .text {
-    flex: 1; /* Текст занимает все доступное пространство */
-    margin-right: 50px; /* Добавляем отступ справа от текста */
+    flex: 1;
+    margin-right: 50px;
 }
 
 .image {
-    flex: 0 1 auto; /* Изображение занимает столько места, сколько нужно, и не растягивается */
-    max-width: 100%; /* Масштабируем изображение по ширине контейнера */
+    flex: 0 1 auto;
+    max-width: 100%;
     height: auto;
-    border: 5px solid #8B4513; /* Толщина, стиль и цвет рамки */
-            border-radius: 10px; /* Скругленные углы */
-            padding: 10px; /* Внутренний отступ вокруг изображения */
-            width: 200px; /* Ширина изображения */
-            box-shadow: 0 0 10px rgba(149, 15, 15, 0.5); /* Тень вокруг изображения */
+    border: 5px solid #8B4513;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(149, 15, 15, 0.5);
 }
 
 header {
