@@ -1,0 +1,74 @@
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #8FBC8F;
+    color: #8B4513;
+    margin:0;
+    padding:0;
+}
+.content {
+    display: flex; /* Используем Flexbox для размещения элементов в строку */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: space-between; /* Размещаем элементы с максимальным пространством между ними */
+    padding: 20px;
+}
+
+.text {
+    flex: 1; /* Текст занимает все доступное пространство */
+    margin-right: 50px; /* Добавляем отступ справа от текста */
+}
+
+.image {
+    flex: 0 1 auto; /* Изображение занимает столько места, сколько нужно, и не растягивается */
+    max-width: 100%; /* Масштабируем изображение по ширине контейнера */
+    height: auto;
+    border: 5px solid #8B4513; /* Толщина, стиль и цвет рамки */
+            border-radius: 10px; /* Скругленные углы */
+            padding: 10px; /* Внутренний отступ вокруг изображения */
+            width: 200px; /* Ширина изображения */
+            box-shadow: 0 0 10px rgba(149, 15, 15, 0.5); /* Тень вокруг изображения */
+}
+
+header {
+    background-color: #808000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: georgian;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B4513;
+    padding: 8px;
+    border: 1px solid #808000;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #808000;
+    color: white;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #808000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
